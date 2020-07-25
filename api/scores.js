@@ -43,7 +43,7 @@ export default async function (req, res) {
 
     const urls = [
         'https://www.google.com/',
-        'https://fastest-lighthouse.sam.lc/'
+        'https://fastergoogle.com/'
     ]
 
     const urlScores = await Promise.all(urls.map(async ( urlString ) => {
@@ -60,6 +60,6 @@ export default async function (req, res) {
     // Set Cors Headers to allow all origins so data can be requested by a browser
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept")
-    
+
     res.json(urlScores)
 }
