@@ -1,5 +1,8 @@
 {
   "scripts": {
     "build": "rm -rf public && mkdir public && echo 'Custom Build' > ./public/index.html"
+  },
+  "dependencies": {
+    "lighthouse": "^6.1.1"
   }
 }
