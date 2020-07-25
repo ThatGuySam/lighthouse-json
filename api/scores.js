@@ -52,6 +52,7 @@ export default async function (req, res) {
 
         return {
             url: urlString,
+            timestamp: Date.now(),
             audits
         }
     }))
