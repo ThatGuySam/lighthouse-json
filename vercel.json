@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "github": {
+        "silent": true
+    },
+    "routes": [
+        {
+            "src": "/scores.json",
+            "headers": {"cache-control": "public, max-age=43200, stale-while-revalidate"},
+            "dest": "/api/scores"
+        }
+    ]
+}
