@@ -3,6 +3,7 @@
     "build": "rm -rf public && mkdir public && echo 'Custom Build' > ./public/index.html"
   },
   "dependencies": {
+    "@microlink/mql": "^0.7.4",
     "lighthouse": "^6.1.1"
   }
 }
