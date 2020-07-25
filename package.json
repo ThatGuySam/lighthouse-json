@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "rm -rf public && mkdir public && echo 'Custom Build' > ./public/index.html"
+    "build": "rm -rf public && mkdir public && echo 'Custom Build' > ./public/index.html",
+    "vercel-dev": "vercel dev"
   },
   "dependencies": {
     "@microlink/mql": "^0.7.4",
